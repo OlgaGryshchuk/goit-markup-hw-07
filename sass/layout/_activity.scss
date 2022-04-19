@@ -1,0 +1,36 @@
+.activity {
+    padding-top: 0;
+}
+
+.activity-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+
+.activity-list-item {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.activity-photo-wrapper {
+    position: relative;
+}
+
+.activity-overlay {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    background-color: rgba(47, 48, 58, 0.8);
+    font-family: var(--primary-font-family);
+    font-weight: 700;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--primary-text-color-theme-dark);
+}
