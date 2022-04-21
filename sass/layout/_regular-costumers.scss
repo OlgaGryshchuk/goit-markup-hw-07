@@ -12,19 +12,19 @@
     border: 1px solid var(--icon-color);
     border-radius: 4px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        border-color: var(--accent-color);
+    }
 }
 
 .costumers-list-icon {
     fill: var(--icon-color);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.costumers-list-link:hover,
-.costumers-list-link:focus {
-    border-color: var(--accent-color);
-}
-
-.costumers-list-link:hover .costumers-list-icon,
-.costumers-list-link:focus .costumers-list-icon {
-    fill: var(--accent-color);
+    .costumers-list-link:hover &,
+    .costumers-list-link:focus & {
+        fill: var(--accent-color);
+    }
 }
